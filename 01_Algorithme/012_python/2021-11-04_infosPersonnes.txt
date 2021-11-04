@@ -1,0 +1,7 @@
+calvo herve 40 Paris 1000000.0
+Toto Romano 10 Nantes 500
+Dupuis Rodrigue 14 Paris 400
+tutu ok 12 Vincennes 1250.0
+yyyyy pppp 23 Paris 3000.0
+uuuu pppp 54 Lisbonne 2364.0
+kkk lll 45 lll 4000.0

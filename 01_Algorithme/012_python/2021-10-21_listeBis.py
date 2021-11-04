@@ -1,0 +1,41 @@
+# Tableaux - Listes en python
+# Liste : ensemble d'elements de types quelconques
+
+# Creation d'une liste vide
+# 2 methodes
+maliste1 = []
+maliste2 = list();
+
+# Creation d'une liste non vide
+maListe3 = ['Bonjour', 3.14, 45, 'A', True]
+
+# Taille d'une liste fonction len()
+print("taille de la liste maliste3: ", len(maListe3))
+print(maListe3)
+
+for i in range(0, len(maListe3)):
+    print(maListe3[i])
+    if maListe3[i] == 45 :
+        print("Trouve")
+
+# Ajouter un element a la liste : fonction append
+print(maliste1)
+maliste1.append("salut")
+maliste1.append(8)
+print(maliste1)
+
+# Enlever un element de la liste fonction remove
+# en specifiant l'element a supprimer
+maListe3.remove(3.14)
+print(maListe3)
+
+# Enlever un element de la liste fonction delete ou del
+# en specifiant son indice dans la liste
+del maListe3[1]
+print(maListe3)
+
+maListe4 = [1,2,3]
+maliste1.append(maListe4)
+print(maliste1)
+
+
